@@ -1,6 +1,6 @@
 namespace Server.Models
 {
-    class ModelSnapshot
+    public class ModelSnapshot
     {
         public Guid Id { get; set; } = Guid.NewGuid();
         public string SessionId { get; set; } = "";
@@ -9,7 +9,7 @@ namespace Server.Models
         public string Json { get; set; } = "";
     }
 
-    class ContextEvent
+    public class ContextEvent
     {
         public Guid Id { get; set; } = Guid.NewGuid();
         public string SessionId { get; set; } = "";
